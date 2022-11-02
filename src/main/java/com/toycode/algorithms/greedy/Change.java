@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class GreedyAlg {
+public class Change {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int cases = 1;
@@ -19,6 +19,9 @@ public class GreedyAlg {
             if (L == 0 && P == 0 && V == 0)
                 break;
 
+            int a = V / P;
+            int b = a * L;
+            int c = V % P;
             result = ((V / P) * L) + Math.min(L, (V % P));
             System.out.printf("Case %s: %s%n", cases, result);
             cases++;

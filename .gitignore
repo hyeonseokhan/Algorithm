@@ -45,3 +45,5 @@ bin/
 .wallet/
 .connet/
 !/.idea/workspace.xml
+/gradle/wrapper/gradle-wrapper.jar
+/.idea/workspace.xml
