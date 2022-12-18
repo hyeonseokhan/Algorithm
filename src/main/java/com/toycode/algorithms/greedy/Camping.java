@@ -26,9 +26,6 @@ public class Camping {
             if (L == 0 && P == 0 && V == 0)
                 break;
 
-            int a = V / P;
-            int b = a * L;
-            int c = V % P;
             result = ((V / P) * L) + Math.min(L, (V % P));
             System.out.printf("Case %s: %s%n", cases, result);
             cases++;
