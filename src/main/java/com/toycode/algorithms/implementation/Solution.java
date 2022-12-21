@@ -1,4 +1,4 @@
-package com.toycode.algorithms.Implementation;
+package com.toycode.algorithms.implementation;
 
 import java.io.BufferedReader;
 import java.io.IOException;
