@@ -12,7 +12,7 @@ public class DFS {
     static ArrayList<Integer>[] lists;
     static boolean[] visit;                     // 방문여부 확인목록.
     /**
-     * 그래프 저장방법 중 인정리스트 기반으로 작성된 예제
+     * 그래프 저장방법 중 인접리스트 기반으로 작성된 예제
      * @param args
      */
     public static void main(String[] args) {
